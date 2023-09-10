@@ -7,7 +7,6 @@ import { HeroesModule } from './heroes/heroes.module';
 
 @NgModule({
   declarations: [AppComponent],
-  providers: [],
   bootstrap: [AppComponent],
   imports: [BrowserModule, CounterModule, HeroesModule],
 })
